@@ -17,6 +17,8 @@ class Solution:
         for x in hashMap:
             if hashMap[x] != 0:
                 return False
+            
+        return True
 
 s = input("Enter first string: ")
 t = input("Enter second string: ")
